@@ -462,7 +462,7 @@ RCT_EXPORT_METHOD(checkRecordAudioAuthorizationStatus:(RCTPromiseResolveBlock)re
             resolve(@(granted));
         }];
 #else
-        resolve(@(YES));
+        resolve(@(NO));
 #endif
     }
 }
